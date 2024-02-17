@@ -5,7 +5,7 @@ def find_anagrams(strs: list[str]) -> list[list[str]]:
     :return: A list of lists of anagrams grouped together.
     """
     # Initializing a dictionary in which we will store the anagrams.
-    anagram_dict = {}
+    anagram_dict = {} 
     for word in strs:
         # The key in the dictionary will be the sorted value of the given word. E.g. 'cba' and 'bca' would become 'abc'.
         # This helps us group the anagrams together, since if we sort the anagrams of a word,

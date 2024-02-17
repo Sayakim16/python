@@ -6,6 +6,6 @@ Input:
 
 `strs = ["eat", "tea", "ate", "tan", "nat", "bat", "batt"]`
 
-Output:
+Output: 
 
 `[["nat", "tan"], ["bat"], ["ate", "eat", "tea"], ["batt"]]`

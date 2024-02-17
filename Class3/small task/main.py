@@ -42,7 +42,8 @@ def merge_sorted_lists(list1: list[int], list2: list[int]) -> list[int]:
             result.append(list2[l2_ptr])
             l2_ptr += 1
 
-    # Extending the result list by the remaining slices.
+    # Extending  
+    the result list by the remaining slices.
     # If the slice happens to be empty, it still doesn't affect the result array in a bad way,
     # so no need to check if the slice is empty.
     result.extend(list1[l1_ptr:])
