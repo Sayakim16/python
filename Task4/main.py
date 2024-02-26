@@ -51,6 +51,6 @@ def merge_sorted_lists(list1: list[int], list2: list[int]) -> list[int]:
     return result
 
 
-L1 = [1, 2, 4]
+L1 = [1, 2, 4] 
 L2 = [1, 3, 4, 5]
 print(merge_sorted_lists(L1, L2))
